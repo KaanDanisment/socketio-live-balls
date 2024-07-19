@@ -54,14 +54,14 @@ body {
   padding: 3px 5px;
   left: 0;
   width: 100%;
-  display: inline-block;
+  display: none;
 }
 
 .chat {
   margin-right: 10px !important;
   margin-left: 10px !important;
   height: 90px;
-  mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0));
+  overflow-y: auto;
 }
 .chat .content {
   text-align: left;
